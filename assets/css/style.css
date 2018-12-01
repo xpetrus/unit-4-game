@@ -1,0 +1,35 @@
+body{
+   background: -webkit-radial-gradient(rgb(214, 232, 248), rgb(40, 163, 135));
+   background: radial-gradient(rgb(214, 232, 248), rgb(40, 163, 135));
+   
+
+}
+h1{
+    color: white;
+    font-family: 'Unlock', cursive;
+
+}
+.container{
+    margin-bottom: 20px;
+}
+.card-body{
+    /*border: 1px lightgray solid;*/
+    
+    /*background-image: url("../images/rockywall.png");*/
+    background-color: #755f1e;
+    background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+    margin-top:10px;
+}
+.gameheader{
+    border-bottom: 1px lightgray solid;
+    padding-top: 10px;
+}
+p{
+    color:white;
+}
+h2{
+    color:white;
+}
+
+
+

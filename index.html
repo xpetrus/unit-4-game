@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Crystals Collector</title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src = "assets/javascript/game.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata|Unlock" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container main">
+            <div class = "row">
+                <div class = "col-md-12 text-center gameheader">
+                    <h1>Crystals Collector</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class = "col-md-12">
+                    <div class="card-body text-center">
+                        <p>You will be given a random number at the start of the game.</p>
+                        <p>
+                            There are four crstals below. By clicking on a crystal you will add a specific aount of points to your total score.
+                        </p>
+                        <p>
+                            You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+                        </p>
+                        <p>
+                            The value of each crystal is hidden form you until you click on it.
+                        </p>
+                        <p>
+                            Each time when the game starts, the game will change the values of each crystal.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class = "col-md-5 text-center">
+                    <div class = "card-body pointGoal">
+                        <p>Match:</p>
+                        <h2 id = "point-goal">Pick Your Crystals</h2>
+                    </div>
+                </div>
+                <div class = "col-md-4">
+                    <div class= "card-body winloss">
+                        <p>Wins: <span class="winCount"></span></p>
+                        <p>Losses: <span class="lossCount"></span></p>
+                    </div>
+                </div>
+                <div class = "col-md-3">
+                    <div class = "card-body text-center">
+                        <h2 id="notif"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "col-md-12 text-center">
+                    <div class = "card-body">
+                            <img src= "assets/images/amethyst.png" id = "amethyst"> 
+                            <img src = "assets/images/diamond.png" id = "diamond"> 
+                            <img src = "assets/images/emerald.png" id = "emerald"> 
+                            <img src = "assets/images/sapphire.png" id = "sapphire">
+                    </div>
+                    
+                    
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "col-md-6 text-center">
+                    <div class = "card-body">
+                       
+                        <p>Your total value is: </p>
+                    </div>
+                </div>
+                <div class= "col-md-6 text-center">
+                    <div class= "card-body">
+                        <h2 id = "urscore">0</h2>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </body>
+</html>
